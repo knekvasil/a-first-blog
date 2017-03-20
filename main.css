@@ -4,4 +4,72 @@ html, body {
   flex-direction: column;
   font-weight: 300;
   line-height: 1.5;
+  text-align:center;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	
+	text-align:left;
+}
+
+a{
+	text-decoration: none;
+	
+}
+
+.body{
+	font-family:'Lato', sans-serif;
+	text-align:left;
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 10 em;
+	
+}
+
+.name{
+	text-align: center;
+	font-weight: 100;
+	
+	
+}
+
+.title{
+	text-align:left;
+	float: center;
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 10 em;
+	
+}
+
+.sub-title{
+	text-align:left;
+	float: center;
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 10 em;
+
+}
+
+.sub-body{
+	text-align:left;
+	float: center;
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 10 em;
+}
+
+.info{
+	text-align:left;
+	float: center;
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 10 em;
+	
 }
