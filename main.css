@@ -96,6 +96,7 @@ body{
 }
 
 .inner{
+	z-index: -999;
 	position: relative;
 	left: 50px;
 }
@@ -148,9 +149,3 @@ body{
 	padding-right: 7px;
 }
 
-.skills-list .information {
-	font-weight: 400;
-	position: relative;
-	left: 50px;
-	bottom:45px;
-}
