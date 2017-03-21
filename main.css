@@ -32,16 +32,22 @@ body{
 	font-size: 56px;
 	font-weight: 400;
 	padding-top: 30px;
+	text-align: left;
+	position: relative;
+	left: -38px;
 }
 
 .img-circle {
 	width: 150px;
 	border-radius: 50%;
+	position: relative;
+	left: -25px;
 }
 
 .picture {
 	float: left;
 	width: 35%;
+	text-align: center;
 }
 
 .header-container {
@@ -87,4 +93,46 @@ body{
 
 .resume-button a: active {
 	top: 2px;
+}
+
+.inner{
+	position: relative;
+	left: 50px;
+}
+
+.sidebar {
+	float: left;
+	height: 500px;
+}
+
+.section .title {
+	margin: 0px;
+}
+
+.project-list{
+	list-style: none;
+	font-weight: 700;
+}
+
+
+.project-list .fa {
+	padding-right: 7px;
+}
+
+.project-list .information {
+	position: relative;
+	bottom: 10px;
+	font-weight: 400;
+}
+
+.icons .link {
+	position: relative;
+	bottom: 25px;
+	font-size: 15px;
+	text-decoration: none;
+	color: #000;
+}
+
+.icons .link:hover {
+	color: #0000FF;
 }
