@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
+* {
+	-webkit-transition: linear 175ms;
+}
+
 html, body {
   min-height: 100%;
   display: flex;
@@ -54,4 +58,33 @@ body{
 
 .icons .fa {
 	padding-right: 5px;
+}
+
+.resume-button{
+	float:left;
+}
+
+.resume-button a{
+	text-decoration: none;
+	color: #000;
+	 position: relative;
+	 margin-left: 13px;
+	 cursor: pointer;
+ 	 padding: 8px 25px;
+ 	 border: 1px solid #204156;
+ 	 position:relative;
+ 	 border-radius: 3px;
+}
+
+.resume-button a .fa {
+	padding-right: 7px;
+}
+
+.resume-button a:hover {
+	background-color: #000;
+	color: #FFF;
+}
+
+.resume-button a: active {
+	top: 2px;
 }
