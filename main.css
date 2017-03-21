@@ -102,7 +102,7 @@ body{
 
 .sidebar {
 	float: left;
-	height: 500px;
+	height: 800px;
 }
 
 .section .title {
@@ -135,4 +135,15 @@ body{
 
 .icons .link:hover {
 	color: #0000FF;
+}
+
+.skills-list {
+
+	list-style: none;
+	font-weight: 700;
+
+}
+
+.skills-list .fa {
+	padding-right: 7px;
 }
