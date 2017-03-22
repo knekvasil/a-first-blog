@@ -149,3 +149,21 @@ body{
 	padding-right: 7px;
 }
 
+@media (max-width: 750) {
+  .section {
+    
+    width: 500;
+  }
+}
+
+@media (max-width: 550) {
+  .section {
+    
+    width: auto;
+  }
+
+@media (max-width: 500) {
+   .section {
+    
+    width: auto;
+  }
