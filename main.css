@@ -71,6 +71,7 @@ body{
 }
 
 .resume-button a{
+
 	text-decoration: none;
 	color: #000;
 	 position: relative;
@@ -84,11 +85,13 @@ body{
 
 .resume-button a .fa {
 	padding-right: 7px;
+
 }
 
 .resume-button a:hover {
 	background-color: #000;
 	color: #FFF;
+
 }
 
 .resume-button a: active {
@@ -100,12 +103,14 @@ body{
 	position: relative;
 	left: 50px;
 }
+.inner2{
+	position: relative;
+	left: 50px;
+}
 
 .sidebar {
 	float: left;
 	height:1150px;
-
-	
 }
 
 .section .title {
@@ -136,7 +141,12 @@ body{
 	color: #000;
 }
 
-.icons .link:hover {
+.sidebarlink{
+	text-decoration: none;
+	color: #000;
+}
+
+.icons .link .sidebarlink:hover {
 	color: #0000FF;
 }
 
