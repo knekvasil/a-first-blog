@@ -5,11 +5,11 @@
 }
 
 html, body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  font-weight: 400;
-  line-height: 1.5;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	font-weight: 400;
+	line-height: 1.5;
 }
 
 body{
@@ -66,35 +66,28 @@ body{
 	padding-right: 5px;
 }
 
-.resume-button{
-	float:left;
-}
-
 .resume-button a{
-
 	text-decoration: none;
 	color: #000;
-	 position: relative;
-	 margin-left: 13px;
-	 cursor: pointer;
- 	 padding: 8px 25px;
- 	 border: 1px solid #204156;
- 	 position:relative;
- 	 border-radius: 3px;
+	position: relative;
+	margin-left: 13px;
+	cursor: pointer;
+ 	padding: 8px 25px;
+ 	border: 1px solid #204156;
+ 	border-radius: 3px;
+	float: left;
 }
 
 .resume-button a .fa {
 	padding-right: 7px;
-
 }
 
 .resume-button a:hover {
 	background-color: #000;
 	color: #FFF;
-
 }
 
-.resume-button a: active {
+.resume-button a:active {
 	top: 2px;
 }
 
@@ -104,13 +97,14 @@ body{
 	left: 50px;
 }
 .inner2{
+	z-index: -999;
 	position: relative;
 	left: 50px;
 }
 
 .sidebar {
 	float: left;
-	height:1350px;
+	height: 850px;
 }
 
 .section .title {
@@ -121,7 +115,6 @@ body{
 	list-style: none;
 	font-weight: 700;
 }
-
 
 .project-list .fa {
 	padding-right: 7px;
@@ -151,31 +144,10 @@ body{
 }
 
 .skills-list {
-
 	list-style: none;
 	font-weight: 700;
-
 }
 
 .skills-list .fa {
 	padding-right: 7px;
 }
-
-@media (max-width: 750) {
-  .section {
-    
-    width: 500;
-  }
-}
-
-@media (max-width: 550) {
-  .section {
-    
-    width: auto;
-  }
-
-@media (max-width: 500) {
-   .section {
-    
-    width: auto;
-  }
