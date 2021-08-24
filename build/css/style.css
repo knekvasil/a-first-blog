@@ -1,0 +1,156 @@
+/* --------------------------------------------------
+CSS Document For Leaves v1.0 - Anthonyy @ OSWD.org
+-------------------------------------------------- */
+
+/* CONTAINER */
+
+#container {
+    /*width: 750*/
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Lucida Grande, Tahoma, Arial, Helvetica, sans-serif; /* Lucida Grande for the Macs, Tahoma for the PCs */
+    font-size: 11px;
+    line-height: 1.6em;
+    color: #666;
+    background-color: #FFF;
+}
+
+/* GENERAL MOJO AND MULA */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    color: #306fc7;
+    margin-bottom: 30px;
+    background-color: #FFF;
+}
+
+h2 {
+    color: #666666;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF;
+}
+
+a {
+    color: #306fc7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #306fc7;
+    background-color: #F5F5F5;
+}
+
+
+form {
+    float:right;
+    margin-top: -45px;
+    font-size: 9px;
+}
+
+/* HEADER ELEMENTS */
+
+#header {
+    border-bottom: 4px solid #948979;
+    padding-top: 10px;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+
+/* the slogan */
+#header p { 
+    margin-top: -20px;
+    margin-left: 30px;
+    color: #999999;
+}
+
+/* NAVIGATION ELEMENTS */
+
+ #navigation ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;			
+    float: left;
+    font-size: 14px;
+}
+
+#navigation a {
+    display: block;
+}
+
+#navigation li {
+    padding: 5px;
+    width: 140px;
+    border-bottom: 1px solid #CCC;
+}
+
+#navigation li:link, #navlist li:visited {
+    color:#306fc7;
+    text-decoration: none;
+}
+
+#navigation li:hover {
+    background-color: #F5F5F5;
+    color:#306fc7;
+}
+
+
+/* CONTENT ELEMENTS */
+
+#content {
+
+    margin-left: 180px;
+    margin-right: 200px;
+}
+
+#content p {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DDDDDD; 
+}
+
+/* ARTICLE ELEMENTS */
+#article {
+    margin-left: 180px;
+    margin-right: 200px;
+}
+
+#article h2{
+    padding-top: 10px;
+    border-top: 1px solid #DDDDDD;
+}
+
+/* SIDEBAR ELEMENTS */
+
+#sidebar {
+    float: right;
+    width: 175px;
+    padding-bottom: 50px;
+}
+
+#sidebar p {
+    padding-bottom: 10px;
+    border-top: 1px solid #DDDDDD;
+}
+
+
+/* IMAGE ELEMENTS */
+
+.img-circle {
+    width: 48px;
+    display:block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
+
+.img-circle-large {
+    width: 200px;
+    display:block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
