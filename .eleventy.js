@@ -17,7 +17,6 @@ module.exports = config => {
   config.addWatchTarget("./src/css/")
   config.addWatchTarget("./src/images/")
 
-  // config.addPassthroughCopy({ "./src/images/favicon/": "/" })
   /* --- PLUGINS --- */
 
   // navigation
