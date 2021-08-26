@@ -1,1 +1,0 @@
-Kalju's website. All hail SSGs.
