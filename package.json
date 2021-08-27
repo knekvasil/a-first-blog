@@ -4,11 +4,11 @@
   "description": "An 11ty starter website",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npm run clean && clear && ELEVENTY_ENV=development npx eleventy --serve",
+    "start": "eleventy --serve",
     "production": "npm run clean && npx eleventy",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
     "clean": "rm -rf build",
-    "build": "env NODE_ENV=production npx eleventy"
+    "build": "eleventy"
   },
   "keywords": [
     "11ty",
