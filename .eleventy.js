@@ -57,7 +57,7 @@ module.exports = config => {
 
     dir: {
       input: 'src',
-      output: 'build'
+      output: '_site'
     }
 
   };
