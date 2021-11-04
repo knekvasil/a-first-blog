@@ -15,4 +15,4 @@ This site has been deprecated. End of an era.
 
 ## Ironhack
 
-[Project 1 - Game : Slides]("./images/presentations/pluto-rapid.pdf")
+[Project 1 - Game : Slides]("images/presentations/pluto-rapid.pdf)
